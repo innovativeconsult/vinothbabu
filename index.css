@@ -412,18 +412,16 @@ body {
 
 
 
-
-
 .freetrails {
-    
-    min-height: 100vh;
+   
+    min-height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
     padding: 0% 7%;
     flex-direction: column;
     gap: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 
 }
 
@@ -507,7 +505,8 @@ body {
 
 /* ------------ images ----------- */
 .pictures {
-    height: 100vh;
+    padding: 10px;
+    min-height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -540,7 +539,7 @@ body {
     gap: 50px;
     flex-direction: column;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .img1 {
@@ -586,9 +585,9 @@ body {
 /* Blog  */
 
 .blog {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
-    padding-bottom: 30px;
+    padding: 30px;
 }
 
 .blogtopic {
@@ -606,7 +605,7 @@ body {
 
 .blogcontent {
     width: 100%;
-    min-height: 90vh;
+    min-height: 60vh;
 
     display: flex;
     justify-content: space-around;
@@ -1199,6 +1198,10 @@ footer {
         font-size: 23px;
     }
 
+    .freetrails {
+        min-height: 50vh;
+    }
+
     .freetrails h2 {
         font-size: 22px;
     }
@@ -1218,7 +1221,7 @@ footer {
     }
 
     .blogcontent {
-        gap: 10px;
+        gap: 40px;
     }
 
     .blogbox {
@@ -1417,11 +1420,17 @@ footer {
     }
 
     .blogcontent {
-        gap: 10px;
+       
+        gap: 50px;
     }
 
     .blogbox {
         width: 290px;
+    }
+
+    .blogtopic h1{
+        font-size: 30px;
+        padding-bottom: 10px;
     }
 
     .foot-over {
