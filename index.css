@@ -9,6 +9,7 @@
 
 body {
     background-color: rgb(1, 14, 34);
+    scroll-behavior: smooth;
 }
 
 /* -------- overall ------- */
@@ -419,7 +420,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 2% 7%;
+    padding: 0% 7%;
     flex-direction: column;
     gap: 30px;
     padding-bottom: 15px;
