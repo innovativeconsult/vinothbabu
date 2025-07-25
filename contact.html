@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <div class="overall">
+
+        <nav>
+
+            <div class="left">
+                <h1><span>Vinoth</span>Babu</h1>
+            </div>
+            <div class="right">
+                <a href="./index.html">Home</a>
+                <div>
+                     <a href="./contact.html">Book a free 30 min consultation</a>
+                   </div>
+            </div>
+
+            <!-- Floating WhatsApp Icon -->
+            <div class="whatsapp-float" onclick="sendMessage()">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+            </div>
+        </nav>
+
+        <div class="contactbox">
+            <div class="container">
+                <form method="post" action="" name="contact-form">
+                    <h4>Contact Us</h4>
+                    <input type="text" name="your-name" placeholder="Name">
+                    <input type="text" name="your-number" placeholder="Number">
+                    <input type="email" name="your-email" placeholder="Email">
+                    <textarea name="message" rows="7" placeholder="Your Message..."></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                   
+                    <div id="loading" style="display:none;">Submitting...</div>
+
+                </form>
+            </div>
+        </div>
+        <!-- Footer  -->
+
+        <!--======= foot-top =======-->
+        <footer>
+            <div class="foot-top">
+                <h1><span>Vinoth</span>Babu</h1>
+            </div>
+            <!--======= foot-over =======-->
+            <div class="foot-over">
+                <!--======= foot-Link =======-->
+                <div class="foot-link">
+                    <h1>Quick Link</h1>
+                    <a href="./index.html">Home</a>
+                 
+                    <a href="./contact.html">Contact</a>
+                </div>
+                <!--======= foot-social =======-->
+                <div class="foot-social">
+                    <h1>Social Media</h1>
+                    <a href="Instagram">Instagram</a>
+                   <a href="https://www.linkedin.com/in/vinoth-babu">LinkedIn</a>
+
+                </div>
+                <!--======= foot-contact =======-->
+                <div class="foot-contact">
+                    <h1>Contact Details</h1>
+                    <a href="mailto:Vinothmailsu@gmail.com">Vinothmailsu@gmail.com</a>
+                    <a href="Whatsapp" onclick="sendMessage()">Whatsapp</a>
+                    <a>+919884289591</a>
+                   <a href="https://www.linkedin.com/in/vinoth-babu">https://www.linkedin.com/in/vinoth-babu</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./googlesheet.js"></script>
+</body>
+
+</html>
