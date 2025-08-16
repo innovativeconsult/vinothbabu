@@ -792,6 +792,17 @@ footer {
 .foot-link a:hover {
     scale: 1.1;
 }
+.footerterms{
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   
+}
+
+.footerterms a{
+    color: white;
+    text-decoration: none;
+}
 
 /* --------- responsive ---------- */
 @media only screen and (min-width:930px) and (max-width:1024px) {
@@ -1447,3 +1458,4 @@ footer {
 
 
 }
+
